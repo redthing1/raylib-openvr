@@ -17,6 +17,8 @@ set(
 set(CMAKE_C_STANDARD 11)
 set(CMAKE_CXX_STANDARD 17)
 
+
+set(OPENVR_INCLUDE_DIR /usr/include/openvr)
 # vcpkg install openvr
 find_path(OPENVR_INCLUDE_DIR openvr_capi.h)
 find_library(OPENVR_LIB openvr_api)
